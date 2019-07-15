@@ -20,7 +20,8 @@
   "entrypoints": {
     "main": [
       "net.ggtylerr.pingpong.Initializer"
-    ]
+    ],
+    "cotton-client-commands": ["net.ggtylerr.pingpong.commands.Ping"]
   },
 
   "depends": {
