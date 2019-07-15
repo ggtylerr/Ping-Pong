@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "id": "pingpong",
+  "version": "${version}",
+
+  "name": "Ping Pong",
+  "description": "The client-side mod that shows your damn ping instead of the word \"Pong.\"",
+  "authors": [
+    "ggtylerr"
+  ],
+  "__contact": {
+    "homepage": "https://fabricmc.net/",
+    "sources": "https://github.com/FabricMC/fabric-example-mod"
+  },
+
+  "license": "CC0-1.0",
+  "icon": "assets/pingpong/icon.png",
+
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "net.ggtylerr.pingpong.Initializer"
+    ]
+  },
+
+  "depends": {
+    "fabricloader": ">=0.4.0",
+    "fabric": "*"
+  },
+  "suggests": {
+    "flamingo": "*"
+  }
+}
